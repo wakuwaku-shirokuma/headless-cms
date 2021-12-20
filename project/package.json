@@ -14,7 +14,7 @@
     "lint:js": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
     "lintfix": "prettier --write --list-different . && yarn lint:js --fix",
-    "prepare": "husky install",
+    "prepare": "cd .. && husky install project/.husky",
     "start": "nuxt start",
     "test": "jest"
   },
