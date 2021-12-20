@@ -1,0 +1,6 @@
+[build]
+  base = "/project"
+[build.environment]
+  YARN_VERSION = "1.22.15"
+  YARN_FLAGS = "--no-ignore-optional"
+  NODE_VERSION = "16.13.0"
